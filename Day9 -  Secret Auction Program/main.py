@@ -17,7 +17,6 @@ def winner_detection(bidders_dict):
         if bidders_dict[k] == max_value:
             return k
 
-
 def main():
     logo = '''
                          ___________
@@ -34,7 +33,6 @@ def main():
 '''
     auctioner_db = {}
     print("Welcome to the secret auction program.")
-
     c = "yes"
     while c == "yes":
         bid_info(auctioner_db)
