@@ -43,9 +43,7 @@ def game():
         computer_cards.append(random.choice(list(cards.keys())))
 
     user_score  = cards[user_cards[0]] + cards[user_cards[1]]
-    computer_score = cards[computer_cards[0]] + cards[computer_cards[1]]
-    check(user_score, computer_score, user_cards ,computer_cards)
-    
+    computer_score = cards[computer_cards[0]] + cards[computer_cards[1]]    
     while user_score < 22 and computer_score < 22:
         y_or_n = "y"
         while True:
