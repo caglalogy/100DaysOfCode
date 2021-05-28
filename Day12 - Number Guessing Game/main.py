@@ -35,7 +35,7 @@ def game(level):
 def main():
     global rand_number
     print("Welcome to the Number Guessing Game!")
-    print(f"I'm thinking of a number between 1 and 100. {rand_number}")
+    print(f"I'm thinking of a number between 1 and 100.")
     level = input("Choose a difficulty. Type 'easy' or 'hard': ")
     if level != "hard" and level != "easy":
         print("undefined option.")
