@@ -1,0 +1,1 @@
+You simply have to decide which option (A and B) has more followers on Instagram. As you progress, you will be shown a new person/account. Choose which one has more followers. The objective is to get the most right in a turn.
