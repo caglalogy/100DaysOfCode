@@ -9,11 +9,13 @@ class Ball(Turtle):
         self.penup()
         self.x_move = 10
         self.y_move = 10
+        self.move_speed = 0.01
 
     def refresh(self):
         self.goto(0, 0)
         self.x_move = 10
         self.y_move = 10
+        self.move_speed = 0.1
 
     def move(self):
         new_x = self.xcor() + self.x_move
@@ -30,10 +32,12 @@ class Ball(Turtle):
     def detect_player(self, player1, player2):
         if self.distance(player2) < 50 and self.xcor() > 320:
             self.x_move *= -1
+            self.move_speed *= 0.9
             return 2
 
         if self.distance(player1) < 50 and self.xcor() < -320:
             self.x_move *= -1
+            self.move_speed *= 0.9
             return 1
 
 

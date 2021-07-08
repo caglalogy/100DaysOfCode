@@ -1,6 +1,7 @@
 from turtle import Turtle
 STEP = 20
 
+
 class Player(Turtle):
     def __init__(self, x_cor, y_cor):
         super().__init__()
